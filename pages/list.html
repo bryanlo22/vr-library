@@ -1,0 +1,5 @@
+<div class='game' ng-repeat='game in vm.games'>
+  <h2>{{game.name}}</h2>
+  <img class='clickable image' ng-src='{{game.header_image}}' ng-click='vm.viewGame(game.name_path)'>
+  {{game.short_description}}
+</div>

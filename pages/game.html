@@ -1,0 +1,6 @@
+<h2>{{game.name}}</h2>
+<img class='image' ng-src='{{game.header_image}}'>
+{{game.short_description}}
+<div ng-repeat='screenshot in game.screenshots'>
+  <img class='screenshot' ng-src='{{screenshot.path_thumbnail}}'>
+</div>

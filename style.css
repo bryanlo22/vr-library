@@ -1,0 +1,39 @@
+* {
+  font-family: 'Roboto', sans-serif;
+  background-color: #171f28;
+  color: #f0f2f5;
+}
+
+.container {
+  padding: 1.25rem 1.25rem 3rem 1.25rem;
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-weight: 100;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.game {
+  margin: 1.25rem 0 2rem 0;
+}
+
+.image {
+  width: 100%;
+  margin: 0 0 0.5rem 0;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.screenshot {
+  width: 100%;
+  margin: 1.25rem 0 0 0;
+}
